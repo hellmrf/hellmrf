@@ -21,7 +21,7 @@ I have very basic knowledge on these:
 
 ### My research fields
 Although still student, I'm involved in many research projects (Scientific Initiation). Currently, I work with:
-- Development of [QSARModelingPy](https://github.com/hellmrf/QSARModelingPy), a Python package and software program for build and validate [QSAR](https://en.wikipedia.org/wiki/Quantitative_structure%E2%80%93activity_relationship) models ([link](https://proceedings.science/rasbq-2020/papers/qsarmodelingpy--a-python-package-to-build-and-validate-qsar-models-));
+- Development of [QSARModelingPy](https://pypi.org/project/qsarmodelingpy/), a Python package and software program for build and validate [QSAR](https://en.wikipedia.org/wiki/Quantitative_structure%E2%80%93activity_relationship) models ([link](https://proceedings.science/rasbq-2020/papers/qsarmodelingpy--a-python-package-to-build-and-validate-qsar-models-));
 - Validation of a new methodology for QSAR descriptors extraction ([link](https://proceedings.science/sbqt-2021/papers/lqtagridhull-and-lqtagrid-for-4d-qsar-descriptors-calculation--a-comparative-study));
 - Application of Neural Networks in Thermal Analysis (with funding of [CNPq](https://www.gov.br/cnpq/pt-br); [link](https://www.ufmg.br/semanadoconhecimento/page-poster/?id=39037));
 - Application of Neural Networks on the judicial area to predict pending time of bills (still not submited);
