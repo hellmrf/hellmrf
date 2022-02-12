@@ -35,6 +35,7 @@ I'm very interested in Computational Chemistry, Theoretic Chemistry, and Physica
 You can contact me to propose ideas, get some help, or just to meet me.
 - [Email](mailto:helitonmrf@gmail.com)
 - [Telegram](https://t.me/helitonmrf)
+- [Book a meeting](https://calendly.com/helitonmrf)
 - [Twitter](https://twitter.com/helitonmrf)
 - [Youtube](https://www.youtube.com/hmprogramming)
 - [LinkedIn](https://www.linkedin.com/in/helitonmrf/)
