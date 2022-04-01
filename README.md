@@ -13,10 +13,10 @@ Currently, I use three languages almost all the time, so I'm very comfortable wi
 I also use some other languages when I need them:
 - C++
 - Typescript (and therefore Javascript in legacy projects)
+- MATLABⓇ
 
 I have very basic knowledge on these:
 - Rust
-- MATLABⓇ
 - Bash
 
 ### My research fields
