@@ -1,8 +1,5 @@
 # [Heliton Martins (@hellmrf)](https://hellmrf.github.io/)
 
-<div style="text-align: center; border-radius: 150px;"><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/25724069?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" /></div>
-
-
 <div style="text-align:center;">
 <a href="https://hellmrf.github.io/bio">Sobre mim</a> &bull;
 <a href="https://hellmrf.github.io/works">Trabalhos e Apresentações</a> &bull;
