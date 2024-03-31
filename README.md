@@ -4,9 +4,9 @@
 
 
 <div style="text-align:center;">
-<a href="/bio">Sobre mim</a> &bull;
-<a href="/works">Trabalhos e Apresentações</a> &bull;
-<a href="/contact">Contato</a>
+<a href="https://hellmrf.github.io/bio">Sobre mim</a> &bull;
+<a href="https://hellmrf.github.io/works">Trabalhos e Apresentações</a> &bull;
+<a href="https://hellmrf.github.io/contact">Contato</a>
 </div>
 
 
