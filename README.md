@@ -1,42 +1,25 @@
-## Heliton Martins
+# [Heliton Martins (@hellmrf)](https://hellmrf.github.io/)
 
-Computational Chemistry undergraduate student at Federal University of Minas Gerais (UFMG). Programmer and Julia Lang enthusiast.
+<div style="text-align: center; border-radius: 150px;"><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/25724069?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" /></div>
 
-I began programming when I was 10 years old. After realize that I just can't do web design (it was called so), I moved to backend. Then I realized I don't like it very much. I found my field in Computational Chemistry, where I can mix my programming with some physics and math just to bring chemistry to life (or to _silico_).
 
-### My programming knowledge
-Currently, I use three languages almost all the time, so I'm very comfortable with:
-- Python
-- Julia
-- LaTeX
+<div style="text-align:center;">
+<a href="/bio">Sobre mim</a> &bull;
+<a href="/works">Trabalhos e Apresentações</a> &bull;
+<a href="/contact">Contato</a>
+</div>
 
-I also use some other languages when I need them:
-- C++
-- Typescript (and therefore Javascript in legacy projects)
-- MATLABⓇ
 
-I have very basic knowledge on these:
-- Rust
-- Bash
+## Sobre mim
+- Licenciando em Química ([UFMG](https://ufmg.br/), Atual);
+- Bacharel em Química Computacional ([UFMG](https://ufmg.br/), 2019-2023);
+- Técnico em Química ([CEFET-MG](https://www.cefetmg.br/), 2016-2018);
+- Programador auto-didata desde 2012.
 
-### My research fields
-Although still student, I'm involved in many research projects (Scientific Initiation). Currently, I work with:
-- Development of [QSARModelingPy](https://pypi.org/project/qsarmodelingpy/), a Python package and software program for build and validate [QSAR](https://en.wikipedia.org/wiki/Quantitative_structure%E2%80%93activity_relationship) models ([link](https://proceedings.science/rasbq-2020/papers/qsarmodelingpy--a-python-package-to-build-and-validate-qsar-models-));
-- Validation of a new methodology for QSAR descriptors extraction ([link](https://proceedings.science/sbqt-2021/papers/lqtagridhull-and-lqtagrid-for-4d-qsar-descriptors-calculation--a-comparative-study));
-- Application of Neural Networks in Thermal Analysis (with funding of [CNPq](https://www.gov.br/cnpq/pt-br); [link](https://www.ufmg.br/semanadoconhecimento/page-poster/?id=39037));
-- Application of Neural Networks on the judicial area to predict pending time of bills (still not submited);
-- Development of a novel application to the calculation of Permitted Daily Exposure (PDE);
-- Development of an educational mobile game for high school chemistry students.
+Heliton Martins é um programador autodidata desde 2012 e tem uma formação diversificada em Química com ênfase em Química Computacional. Nasceu em Pedra Azul, Minas Gerais, e cresceu em Timóteo, na região metropolitana de Ipatinga. Hoje, reside em Belo Horizonte (MG), onde estuda.
 
-### My interests
-I'm very interested in Computational Chemistry, Theoretic Chemistry, and Physical Chemistry. Computer Science is another field I like very much.
+Começou sua jornada na programação por curiosidade quando a internet discada acabara de chegar em sua região. Sua jornada acadêmica começou no Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), onde estudou Química. Durante seu tempo no CEFET-MG, deu aulas particulares para estudantes de Química e Informática para Desenvolvimento de Sistemas.
 
-### Contact
-You can contact me to propose ideas, get some help, or just to meet me.
-- [Email](mailto:helitonmrf@gmail.com)
-- [Telegram](https://t.me/helitonmrf)
-- [Book a meeting](https://calendly.com/helitonmrf)
-- [Twitter](https://twitter.com/helitonmrf)
-- [Youtube](https://www.youtube.com/hmprogramming)
-- [LinkedIn](https://www.linkedin.com/in/helitonmrf/)
-- [Lattes](http://lattes.cnpq.br/2197799814329542)
+Em 2019, iniciou seu bacharelado em Química na Universidade Federal de Minas Gerais (UFMG). Atualmente, faz parte do Laboratório de Química Computacional Aplicada ao Planejamento de Fármacos (LQCAPF) sob a orientação do Prof. Dr. João Paulo Ataíde Martins.
+
+[Leia mais...](https://hellmrf.github.io/bio)
