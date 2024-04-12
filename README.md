@@ -1,9 +1,10 @@
-# [Heliton Martins (@hellmrf)](https://hellmrf.github.io/)
+# [Heliton Martins (@hellmrf)](https://hellmrf.dev.br/)
 
 <div style="text-align:center;">
-<a href="https://hellmrf.github.io/bio">Sobre mim</a> &bull;
-<a href="https://hellmrf.github.io/works">Trabalhos e Apresentações</a> &bull;
-<a href="https://hellmrf.github.io/contact">Contato</a>
+<a href="https://hellmrf.dev.br/">Meu site</a> &bull;
+  <a href="https://hellmrf.dev.br/bio">Sobre mim</a> &bull;
+<a href="https://hellmrf.dev.br/works">Trabalhos e Apresentações</a> &bull;
+<a href="https://hellmrf.dev.br/contact">Contato</a>
 </div>
 
 
@@ -19,4 +20,4 @@ Começou sua jornada na programação por curiosidade quando a internet discada 
 
 Em 2019, iniciou seu bacharelado em Química na Universidade Federal de Minas Gerais (UFMG). Atualmente, faz parte do Laboratório de Química Computacional Aplicada ao Planejamento de Fármacos (LQCAPF) sob a orientação do Prof. Dr. João Paulo Ataíde Martins.
 
-[Leia mais...](https://hellmrf.github.io/bio)
+[Leia mais...](https://hellmrf.dev.br/bio)
