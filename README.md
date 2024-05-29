@@ -9,7 +9,7 @@
 
 
 ## Sobre mim
-- Programming instructor at [youtube.com/@HMProgramming](https://youtube.com/@HMProgramming)
+- Professor de Programação em [youtube.com/@ProgramacaoPopular](https://youtube.com/@programacaopopular)
 - Licenciando em Química ([UFMG](https://ufmg.br/), Atual);
 - Bacharel em Química Computacional ([UFMG](https://ufmg.br/), 2019-2023);
 - Técnico em Química ([CEFET-MG](https://www.cefetmg.br/), 2016-2018);
