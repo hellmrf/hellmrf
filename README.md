@@ -1,12 +1,17 @@
 # [Heliton Martins (@hellmrf)](https://hellmrf.dev.br/)
 
-<div style="text-align:center;">
+<div style="text-align:center;padding: 1rem;">
 <a href="https://hellmrf.dev.br/">Meu site</a> &bull;
-  <a href="https://hellmrf.dev.br/bio">Sobre mim</a> &bull;
-<a href="https://hellmrf.dev.br/works">Trabalhos e Apresentações</a> &bull;
+<a href="https://cv.hellmrf.dev.br">CV</a> &bull;
 <a href="https://hellmrf.dev.br/contact">Contato</a>
 </div>
 
+<a href="https://skillicons.dev/" target="_blank" rel="noopener">
+<div style="text-align: center;">
+<p><img src="https://skillicons.dev/icons?i=py,html,css,js,ts,latex,md" /></p>
+<p><img src="https://skillicons.dev/icons?perline=10&i=docker,git,github,githubactions,nodejs,nextjs,react,nestjs,pug,sass,flask,mysql,postgres,sqlite,sklearn,tensorflow,yarn,npm,wordpress,bootstrap,regex,julia,fortran,php,cpp,rust,gtk,qt,anaconda,azure,postman,bash,vim,neovim,linux,ubuntu,windows,vscode" /></p>
+</div>
+</a>
 
 ## Sobre mim
 - Professor de Programação em [youtube.com/@ProgramacaoPopular](https://youtube.com/@programacaopopular)
