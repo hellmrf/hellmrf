@@ -1,11 +1,17 @@
-# [Heliton Martins (@hellmrf)](https://hellmrf.dev.br/)
+# Heliton Martins ([@hellmrf](https://hellmrf.dev.br/))
+
+[![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCsXyoSkpyZB741fkBKeEovQ)](https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ) [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCsXyoSkpyZB741fkBKeEovQ)](https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ)
+
 
 <div style="text-align:center;padding: 1rem;">
 <a href="https://hellmrf.dev.br/">Meu site</a> &bull;
-<a href="https://cv.hellmrf.dev.br">CV</a> &bull;
+<a href="https://cv.hellmrf.dev.br"><i>Curriculum Vitae</i></a> &bull;
 <a href="https://hellmrf.dev.br/contact">Contato</a>
 </div>
 
+<br/>
+
+## _Habitat_
 <a href="https://skillicons.dev/" target="_blank" rel="noopener">
 <div style="text-align: center;">
 <p><img src="https://skillicons.dev/icons?i=py,html,css,js,ts,latex,md" /></p>
