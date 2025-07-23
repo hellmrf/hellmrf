@@ -21,12 +21,13 @@
 
 ## Sobre mim
 - Professor de Programação em [youtube.com/@ProgramacaoPopular](https://youtube.com/@programacaopopular)
-- Licenciando em Química ([UFMG](https://ufmg.br/), Atual);
-- Bacharel em Química Computacional ([UFMG](https://ufmg.br/), 2019-2023);
+- Bacharelando em Química Computacional ([UFMG](https://ufmg.br/), 2019-Atual);
 - Técnico em Química ([CEFET-MG](https://www.cefetmg.br/), 2016-2018);
+- Fundador de [Coral Digital](https://coraldigital.com.br);
+- Fundador de [Responde.Chat](https://responde.chat)
 - Programador auto-didata desde 2012.
 
-Heliton Martins é um programador autodidata desde 2012 e tem uma formação diversificada em Química com ênfase em Química Computacional. Nasceu em Pedra Azul, Minas Gerais, e cresceu em Timóteo, na região metropolitana de Ipatinga. Hoje, reside em Belo Horizonte (MG), onde estuda.
+Heliton Martins é um programador autodidata desde 2012 e tem uma formação diversificada em Química com ênfase em Química Computacional. Nasceu em Pedra Azul, Minas Gerais, e cresceu em Timóteo, na região metropolitana do Vale do Aço. Hoje, reside em Belo Horizonte (MG), onde estuda.
 
 Começou sua jornada na programação por curiosidade quando a internet discada acabara de chegar em sua região. Sua jornada acadêmica começou no Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), onde estudou Química. Durante seu tempo no CEFET-MG, deu aulas particulares para estudantes de Química e Informática para Desenvolvimento de Sistemas.
 
