@@ -1,25 +1,23 @@
 # Heliton Martins ([@hellmrf](https://hellmrf.dev.br/))
 
-[![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCsXyoSkpyZB741fkBKeEovQ)](https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ) [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCsXyoSkpyZB741fkBKeEovQ)](https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ)
 
-
-<div style="text-align:center;padding: 1rem;">
-<a href="https://hellmrf.dev.br/">Meu site</a> &bull;
-<a href="https://cv.hellmrf.dev.br"><i>Curriculum Vitae</i></a> &bull;
+<!-- <div style="text-align:center;padding: 1rem;">
+<a href="https://hellmrf.dev.br/">Site</a> &bull;
+<a href="https://github.com/hellmrf/hellmrf/releases/download/latest/CV.pdf">Currículo (PDF)</a> &bull;
+<a href="https://linkedin.com/in/hellmrf">LinkedIn</a> &bull;
 <a href="https://hellmrf.dev.br/contact">Contato</a>
-</div>
+</div> -->
 
-<br/>
+- **Currículo**: [Ver PDF](https://github.com/hellmrf/hellmrf/releases/download/latest/CV.pdf)
+- **LinkedIn:** [`/in/helitonmrf`](https://linkedin.com/in/helitonmrf)
+- **Me encontre:** [`hellmrf.dev.br`](https://hellmrf.dev.br/)
 
-## _Habitat_
-<a href="https://skillicons.dev/" target="_blank" rel="noopener">
-<div style="text-align: center;">
-<p><img src="https://skillicons.dev/icons?i=py,html,css,js,ts,latex,md" /></p>
-<p><img src="https://skillicons.dev/icons?perline=10&i=docker,git,github,githubactions,nodejs,nextjs,react,nestjs,pug,sass,flask,mysql,postgres,sqlite,sklearn,tensorflow,yarn,npm,wordpress,bootstrap,regex,julia,fortran,php,cpp,rust,gtk,qt,anaconda,azure,postman,bash,vim,neovim,linux,ubuntu,windows,vscode" /></p>
-</div>
-</a>
+
 
 ## Sobre mim
+
+[![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCsXyoSkpyZB741fkBKeEovQ)](https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ) [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCsXyoSkpyZB741fkBKeEovQ)](https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ)
+
 - Professor de Programação em [youtube.com/@ProgramacaoPopular](https://youtube.com/@programacaopopular)
 - Bacharelando em Química Computacional ([UFMG](https://ufmg.br/), 2019-Atual);
 - Técnico em Química ([CEFET-MG](https://www.cefetmg.br/), 2016-2018);
@@ -34,3 +32,11 @@ Começou sua jornada na programação por curiosidade quando a internet discada 
 Em 2019, iniciou seu bacharelado em Química na Universidade Federal de Minas Gerais (UFMG). Atualmente, faz parte do Laboratório de Química Computacional Aplicada ao Planejamento de Fármacos (LQCAPF) sob a orientação do Prof. Dr. João Paulo Ataíde Martins.
 
 [Leia mais...](https://hellmrf.dev.br/bio)
+
+## _Habitat_
+<a href="https://skillicons.dev/" target="_blank" rel="noopener">
+<div style="text-align: center;">
+<p><img src="https://skillicons.dev/icons?i=py,html,css,js,ts,latex,md" /></p>
+<p><img src="https://skillicons.dev/icons?perline=10&i=docker,git,github,githubactions,nodejs,nextjs,react,nestjs,pug,sass,flask,mysql,postgres,sqlite,sklearn,tensorflow,yarn,npm,wordpress,bootstrap,regex,julia,fortran,php,cpp,rust,gtk,qt,anaconda,azure,postman,bash,vim,neovim,linux,ubuntu,windows,vscode" /></p>
+</div>
+</a>
