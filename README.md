@@ -1,6 +1,12 @@
 # Heliton Martins ([@hellmrf](https://hellmrf.dev.br/))
 
 
+Engenheiro de software com mais de uma década de experiência prática em desenvolvimento (desde o PHP pré-Laravel e do CSS para IE6), tendo evoluido continuamente por uma ampla gama de linguagens e ecossistemas, conforme apropriado para cada problema e para cada realidade.
+
+Empreendedor e apaixonado por resolver problemas, cofundei e lidero uma startup que hoje está incubada no Berçário de Startups do DQ/UFMG.
+
+Academicamente, atuei em inúmeros projetos e grupos de pesquisa, tanto no CEFET-MG quanto na UFMG. Minha trajetória científica se centra em melhorar os métodos atuais de Machine Learning e IA ou aplicá-los a problemas reais em diversas áreas, como em química computacional, toxicologia, planejamento de fármacos, jurimetria, análises térmicas, etc.
+
 <!-- <div style="text-align:center;padding: 1rem;">
 <a href="https://hellmrf.dev.br/">Site</a> &bull;
 <a href="https://github.com/hellmrf/hellmrf/releases/download/latest/CV.pdf">Currículo (PDF)</a> &bull;
@@ -25,11 +31,6 @@
 - Fundador de [Responde.Chat](https://responde.chat)
 - Programador auto-didata desde 2012.
 
-Heliton Martins é um programador autodidata desde 2012 e tem uma formação diversificada em Química com ênfase em Química Computacional. Nasceu em Pedra Azul, Minas Gerais, e cresceu em Timóteo, na região metropolitana do Vale do Aço. Hoje, reside em Belo Horizonte (MG), onde estuda.
-
-Começou sua jornada na programação por curiosidade quando a internet discada acabara de chegar em sua região. Sua jornada acadêmica começou no Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), onde estudou Química. Durante seu tempo no CEFET-MG, deu aulas particulares para estudantes de Química e Informática para Desenvolvimento de Sistemas.
-
-Em 2019, iniciou seu bacharelado em Química na Universidade Federal de Minas Gerais (UFMG). Atualmente, faz parte do Laboratório de Química Computacional Aplicada ao Planejamento de Fármacos (LQCAPF) sob a orientação do Prof. Dr. João Paulo Ataíde Martins.
 
 [Leia mais...](https://hellmrf.dev.br/bio)
 
