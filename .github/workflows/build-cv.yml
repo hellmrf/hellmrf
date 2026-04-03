@@ -1,0 +1,48 @@
+name: Build Latest
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - PDF/**
+
+jobs:
+  build:
+    name: Compilar LaTeX
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: xu-cheng/texlive-action@v2
+        with:
+          scheme: full
+          texlive_version: 2025
+          run: |
+            echo "-----------\n"
+            echo "> which arara\n"
+            which arara
+            echo "\n\n> arara -d PDF -v main.tex\n"
+            arara -d PDF -v main.tex
+            cp PDF/main.pdf CV.pdf
+
+      - name: Publicar release "latest"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config --global user.email "actions@github.com"
+          git config --global user.name  "github-actions"
+
+          git fetch --tags --force
+          git tag -fa latest "${GITHUB_SHA}" -m "Build $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push --force origin latest
+
+          gh release delete latest --yes || true
+
+          gh release create latest \
+            --title     "latest" \
+            --notes     "Build automático do commit ${GITHUB_SHA}" \
+            --target    "${GITHUB_SHA}" \
+            CV.pdf
