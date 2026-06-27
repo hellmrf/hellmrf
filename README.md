@@ -14,9 +14,9 @@ Academicamente, atuei em inúmeros projetos e grupos de pesquisa, tanto no CEFET
 <a href="https://hellmrf.dev.br/contact">Contato</a>
 </div> -->
 
-- **Currículo**: [Ver PDF](https://github.com/hellmrf/hellmrf/releases/download/latest/CV.pdf)
+- **_Curriculum vitae_ (PDF)**: [Português](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-pt.pdf) | [English](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-en.pdf)
 - **LinkedIn:** [`/in/helitonmrf`](https://linkedin.com/in/helitonmrf)
-- **Me encontre:** [`hellmrf.dev.br`](https://hellmrf.dev.br/)
+- **Website:** [`hellmrf.dev.br`](https://hellmrf.dev.br/)
 
 
 
