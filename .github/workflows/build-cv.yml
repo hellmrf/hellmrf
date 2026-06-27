@@ -25,24 +25,24 @@ jobs:
             which arara
             echo "\n\n> arara -d PDF -v main.tex\n"
             arara -d PDF -v main.tex
-            cp PDF/main.pdf CV.pdf
+            echo "\n\n> arara -d PDF -v en.tex\n"
+            arara -d PDF -v en.tex
+            cp PDF/main.pdf Heliton-CV-pt.pdf
+            cp PDF/en.pdf Heliton-CV-en.pdf
 
-      - name: Publicar release "latest"
+      - name: Publicar release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          git config --global user.email "actions@github.com"
-          git config --global user.name  "github-actions"
 
-          git fetch --tags --force
-          git tag -fa latest "${GITHUB_SHA}" -m "Build $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-          git push --force origin latest
+          DATE_STR="$(date -u +'%Y-%m-%d')"
+          TAG_NAME="${DATE_STR}-${GITHUB_SHA::7}"
 
-          gh release delete latest --yes || true
-
-          gh release create latest \
-            --title     "latest" \
-            --notes     "Build automático do commit ${GITHUB_SHA}" \
-            --target    "${GITHUB_SHA}" \
-            CV.pdf
+          gh release create "${TAG_NAME}" \
+            --title "${DATE_STR}" \
+            --notes "Build automático do commit ${GITHUB_SHA}" \
+            --target "${GITHUB_SHA}" \
+            --latest \
+            Heliton-CV-pt.pdf \
+            Heliton-CV-en.pdf

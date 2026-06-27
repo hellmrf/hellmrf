@@ -1,0 +1,208 @@
+% arara: xelatex
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{newcomputermodern}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{14pt}
+\pagenumbering{gobble}
+
+\definecolor{accent}{HTML}{1F4E79}
+\definecolor{textgray}{HTML}{404040}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  citecolor=accent,
+  pdftitle={Heliton Martins Reis Filho - CV},
+  pdfauthor={Heliton Martins Reis Filho},
+  pdfsubject={Curriculum Vitae},
+  pdfkeywords={CV, Resume, Software Engineer, Machine Learning, AI, LLM, RAG, QSAR},
+  pdfcreator={LaTeX},
+}
+
+\titleformat{\section}{\Large\bfseries\color{accent}}{}{0pt}{}[\vspace{0.22em}\titlerule\vspace{0.22em}]
+\titlespacing*{\section}{0pt}{1.1em}{0.42em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.15em}
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.16em,topsep=0.14em,parsep=0pt,partopsep=0pt}
+
+\newcommand{\entry}[4]{%
+  \textbf{\sffamily\large #1} \hfill #2 \\
+  {\itshape #3} \hfill {\small #4} \\[-0.75em]
+}
+
+\newcommand{\subentry}[2]{%
+  \hspace{0.4em}\textbf{\sffamily #1} \hfill {\small #2}\\[-0.55em]
+}
+
+\newcommand*{\itemdesc}[2]{\item \textbf{\sffamily #1:}~{\small #2}}
+
+\newcommand*{\link}[2]{\href{#1}{{\texttt{#2}}}}
+
+\begin{document}
+
+{\Huge \textbf{Heliton Martins Reis Filho}}\\[0.3em]
+
+{\large Software \& AI/ML Engineer | Scientific Computing \& Strategic Innovation}\\[0.4em]
+
+{\ttfamily
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+UFMG | CEFET-MG & Belo Horizonte, Brazil \\
+\href{https://github.com/hellmrf}{github.com/hellmrf} & \href{https://hellmrf.dev.br/en}{hellmrf.dev.br} \\
+\href{https://www.linkedin.com/in/helitonmrf/}{linkedin.com/in/helitonmrf} & \href{https://wa.me/5533999429795}{+55 33 99942-9795} \\
+\href{https://lattes.cnpq.br/2197799814329542}{lattes.cnpq.br/2197799814329542}& \href{mailto:helitonmrf@gmail.com}{helitonmrf@gmail.com} \\
+\end{tabularx}
+}
+\section*{Professional Summary}
+Software Engineer and Technology Entrepreneur with a rare multidisciplinary profile, combining over a decade of pragmatic systems-engineering experience with the deep mathematical rigor of Computational Chemistry. Passionate about continuous learning, I operate at the intersection of deep science, software architecture, and business strategy, delivering value through three pillars:
+
+\begin{itemize}[leftmargin=1.5em, itemsep=0.4em]
+    \item \textbf{Versatile Software Engineering:}
+    Broad technical fluency (10+ languages, including Rust, Python, and TypeScript) and command of multiple eras of infrastructure --- from bare-metal Linux servers and VPS to Cloud-Native ecosystems, Docker, CI/CD, and Serverless.
+
+    \item \textbf{Data Science, AI, and Mathematical Rigor:}
+    Solid analytical foundation applied to the hard sciences. Extensive experience in scientific software (QSAR), dimensionality reduction, statistical validation, and the application of Neural Networks to elucidate complex systems.
+
+    \item \textbf{Strategic Vision and Lean Innovation:}
+    Technical leadership with a product mindset. Skilled at applying agile cycles (build--measure--learn) and aligning technology development with economic feasibility, regulatory context, and real market needs to build high-impact startups and solutions.
+\end{itemize}
+
+
+\section*{Technical Skills}
+\begin{itemize}
+\itemdesc{AI / Machine Learning}{LLMs, RAG, semantic search, \textit{embeddings} (Transformers), fine-tuning, local models, vector databases, neural networks, regression and classification, statistical validation, (un)supervised learning}
+\itemdesc{Languages}{Python, Rust, TypeScript/JavaScript, SQL, Julia, C++, Fortran, MATLAB, \LaTeX, PHP, HTML/CSS}
+\itemdesc{Web}{Next.js, NestJS, Node.js, FastAPI, Flask, REST APIs, PostgreSQL, NoSQL and VecDB}
+\itemdesc{Infra \& DX}{Git/GitHub, Docker, CI/CD, Linux, AWS/GCP/Azure/Vercel, MLOps, Serverless}
+\end{itemize}
+
+\section*{Professional Experience}
+
+\entry{Coral Digital Soluções Inteligentes}{May 2024 -- Present}{Founder, CEO \& CTO}{\link{https://coraldigital.com.br}{coraldigital.com.br}}
+\begin{itemize}\footnotesize
+  \item Founded and lead Coral Digital both strategically and technically, operating on two fronts: proprietary applied-AI products and specialized ML/AI consulting for enterprise clients;
+  \item Apply Lean methodology (build--measure--learn cycles, with direct client contact from the MVP stage) to new product development;
+  \item Delivered on-demand engagements, including a semantic classifier for public tenders (Brazil's government procurement processes) using embeddings and classical ML, and LLM-powered conversational chatbots for various clients.
+\end{itemize}
+
+\subentry{Licita.AI --- Public Tender Intelligence SaaS}{Sep 2025 -- Present \textbar{} \link{https://licitaai.coraldigital.com.br}{licitaai.coraldigital.com.br}}
+\begin{itemize}[leftmargin=2.2em]\footnotesize
+  \item Conceived and lead Licita.AI as CEO \& CTO, incubated at the DQ/UFMG Startup Incubator (UFMG Chemistry Department), with structured mentorship and strategic partners since the MVP stage;
+  \item Architected the product as 4 microservices: a full-stack Next.js web application, two multithreaded Rust workers, and a Python worker for the (serverless) data pipeline;
+  \item Implemented semantic search over public tenders using embeddings and a vector database, plus LLM-driven feasibility pre-screening of tender documents with structured data extraction from attachments;
+  \item Led the data-architecture migration from PostgreSQL + Pinecone to a single PostgreSQL instance, reducing infrastructure footprint and operating cost.
+\end{itemize}
+
+\subentry{Responde.Chat --- WhatsApp Customer-Service Automation SaaS}{2024 -- 2025}
+\begin{itemize}[leftmargin=2.2em]\footnotesize
+  \item Designed and built the complete solution: a self-hosted WhatsApp API (Evolution API), NestJS backend, Next.js frontend, and Python/FastAPI functions/webhooks;
+  \item Delivered a product configurable directly through WhatsApp itself, removing the need for a separate admin panel for end clients.
+\end{itemize}
+
+\vspace{0.7em}
+
+\entry{Companhia Brasileira de Lítio (CBL)}{Mar 2025 -- Apr 2025}{Research \& Development Intern}{Divisa Alegre, MG, Brazil}
+\begin{itemize}\footnotesize
+  \item Completed a mandatory degree internship in the R\&D department of an industrial lithium-processing plant, working at the interface of chemistry, industrial processes, and applied research.
+\end{itemize}
+
+\vspace{0.7em}
+
+\entry{Privacy Point}{Aug 2024 -- Jan 2025}{Full-Stack Developer}{\link{https://privacypoint.com.br}{privacypoint.com.br}}
+\begin{itemize}\footnotesize
+  \item Sole full-stack developer on the product (alongside the CTO), delivering features for compliance with Brazil's LGPD (the country's GDPR-equivalent data-protection law) on a PHP/Laravel platform hosted on a VPS;
+  \item Developed and deployed a conversational chatbot specialized in privacy and data protection (LLM + RAG + vector database).
+\end{itemize}
+
+\section*{Scientific Research Experience}
+
+\entry{LACC/UFMG --- Laboratory for Applied Computational Chemistry}{2019 -- Present (8 years)}{Volunteer Researcher \& Software Development Lead}{Chemistry Dept., UFMG}
+\begin{itemize}\footnotesize
+  \item Led the development of QSARModelingPy: molecular descriptor calculation, data preprocessing, variable filtering and selection (variance, correlation, autocorrelation, Kennard-Stone, OPS, genetic algorithm), and statistical validation (internal, cross-, and external);
+  \item Re-implemented critical modules in Rust and Julia to benchmark performance against the original Python version;
+  \item Conceived and implemented a novel computational-geometry-based method for molecular descriptor calculation, the subject of my undergraduate thesis;
+  \item Publish and maintain open-source tools (HullQSAR, qsarmodeling, QSARModelingPy, maligner) connecting scientific research to reusable software for the community;
+  \item Work on molecular modeling, quantum calculations on computing clusters (ORCA, GAMESS, Psi4, OpenBabel, RDKit), and architecture/packaging of scientific applications in Linux environments.
+\end{itemize}
+
+\vspace{0.7em}
+
+\entry{PICQ/UFMG --- Inverse Problems and Chemical Kinetics Group}{2020 -- 2024 (4 years)}{Undergraduate Research Fellow (CNPq)}{Chemistry Dept., UFMG}
+\begin{itemize}\footnotesize
+  \item Applied artificial neural networks and isoconversional/isothermal methods (Arrhenius, Vyazovkin) to thermal-analysis data (DTG/DTA) to elucidate decomposition mechanisms;
+  \item Re-implemented the group's legacy methodologies (originally in MATLAB) in Julia, Fortran, and Python, with a focus on performance;
+  \item Served as methodology and software-development lead on interdisciplinary projects within UFMG's Graduate Program in Technological Innovation, including: a Raman spectroscopy + neural-network study for COVID-19 detection achieving \textbf{97\% accuracy}; ANN-based optimization of case-duration in the Brazilian Labor Courts; and LLM- and classical-ML-based pre-screening of data-protection-related lawsuits.
+\end{itemize}
+
+\section*{Education}
+\entry{Federal University of Minas Gerais (UFMG)}{2019 -- Jul 2026 (expected)}{B.Sc. in Chemistry, emphasis in Computational Chemistry}{Belo Horizonte, MG, Brazil}
+\begin{itemize}\footnotesize
+  \item Relevant coursework:
+  \begin{itemize}
+      \item Software Programming \& Development; Introduction to Computational Logic; Computational Linear Algebra; Discrete Mathematics;
+      \item Introduction to Chemometrics; Introduction to Data Science; Computational \& Statistical Methods in Chemistry; Methods of Theoretical Physics;
+      \item Technology-Based Venture Creation; Technology Startup Immersion; IT Entrepreneurship.
+    \end{itemize}
+\end{itemize}
+
+\vspace{0.5em}
+
+\entry{Federal Center for Technological Education of Minas Gerais (CEFET-MG)}{2016 -- 2018}{Technical Degree in Chemistry}{Timóteo, MG, Brazil}
+\begin{itemize}\footnotesize
+  \item Interned at the Center for Studies in Physics and Computational Chemistry (NEFICQ), focusing on computer-aided drug design and molecular docking.
+\end{itemize}
+
+\section*{Open-Source Projects}
+\begin{itemize}
+  \item \link{https://github.com/lacc-ufmg/qsarmodeling}{QSAR Modeling} --- Rust application for QSAR/QSPR modeling and validation.
+  \item \link{https://github.com/hellmrf/HullQSAR}{HullQSAR} --- library for geometry-based molecular descriptor calculation.
+  \item \link{https://github.com/lacc-ufmg/QSARModelingPy}{QSARModelingPy} --- Python library for building and validating QSAR/QSPR models.
+  \item \link{https://github.com/hellmrf/maligner}{maligner} --- molecular alignment tool.
+\end{itemize}
+
+\section*{Science Communication \& Teaching}
+\begin{itemize}
+  \item Broadcast Coordinator for the \href{https://repositorio.ufmg.br/bitstream/1843/50717/1/I%20Congresso%20Nacional%20de%20Inova%C3%A7%C3%A3o%20e%20Populariza%C3%A7%C3%A3o%20da%20Ci%C3%AAncia%20a%C3%A7%C3%B5es%20durante%20a%20covid-19.pdf}{1st National Congress on Innovation and Science Popularization} (2020);
+  \item Founder of the \link{https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ}{Programação Popular} (``Popular Programming'') YouTube channel, with over 1 million views since 2013, focused on accessible programming education;
+  \item Producer of a Programming Logic \& Algorithms course using Portugol Studio (a Portuguese-language pseudocode teaching environment), adopted as supplementary material at Brazilian Federal Institutes and technical schools.
+\end{itemize}
+
+\section*{Honors \& Awards}
+\begin{itemize}
+  \item \textbf{Honorable Mention}, \href{https://obesq.obquimica.org}{Brazilian Undergraduate Chemistry Olympiad}.
+  \item \textbf{Gold Medal}, \href{https://www.meta2017.cefetmg.br}{27th CEFET-MG Science \& Technology Fair} (Specific Exhibition of Works and Applications).
+\end{itemize}
+
+\section*{Leadership \& Institutional Service}
+\begin{itemize}
+  \item Student representative on UFMG governance bodies, including the University Council, the Teaching/Research/Extension Council (CEPE), the ICEx Faculty Congregation, the FUMP (UFMG's Student Welfare Foundation) Fiscal Council, and the Chemistry Department Council;
+  \item Executive roles in student organizations: UFMG Central Student Union (Administrative-Financial Director), ICEx Academic Directory (Secretary-General), and Chemistry Students' Center (President).
+\end{itemize}
+
+\section*{Languages}
+Portuguese (native) \textbar{} English (fluent) \textbar{} Italian (basic)
+
+\begin{flushright}\scriptsize%
+Last updated: \today.%
+\end{flushright}
+
+\end{document}

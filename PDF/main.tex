@@ -1,10 +1,10 @@
-% arara: pdflatex
+% arara: xelatex
 \documentclass[10pt,a4paper]{article}
-\usepackage[margin=0.62in]{geometry}
+\usepackage[margin=1.8cm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
-\usepackage{lmodern}
+\usepackage{newcomputermodern}
 \usepackage{microtype}
 \usepackage{xcolor}
 \usepackage[hidelinks]{hyperref}
@@ -35,23 +35,23 @@
   pdftitle={Heliton Martins Reis Filho - CV},
   pdfauthor={Heliton Martins Reis Filho},
   pdfsubject={Curriculum Vitae},
-  pdfkeywords={CV, Currículo, Eng. de Software, Machine Learning},
+  pdfkeywords={CV, Currículo, Engenheiro de Software, Machine Learning, IA, LLM, RAG, QSAR},
   pdfcreator={LaTeX},
 }
 
-\titleformat{\section}{\Large\bfseries\color{accent}}{}{0pt}{}[\vspace{0.28em}\titlerule\vspace{0.28em}]
-% \titlespacing*{\section}{0pt}{0.85em}{0.52em}
-\titlespacing*{\section}{0pt}{1.5em}{0.52em}
+\titleformat{\section}{\Large\bfseries\color{accent}}{}{0pt}{}[\vspace{0.22em}\titlerule\vspace{0.22em}]
+\titlespacing*{\section}{0pt}{1.1em}{0.42em}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.22em}
-\setlist[itemize]{leftmargin=1.2em,itemsep=0.22em,topsep=0.18em,parsep=0pt,partopsep=0pt}
+\setlength{\parskip}{0.15em}
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.16em,topsep=0.14em,parsep=0pt,partopsep=0pt}
 
 \newcommand{\entry}[4]{%
   \textbf{\sffamily\large #1} \hfill #2 \\
-  {\itshape #3} \hfill {\small #4} \\[-0.8em]
+  {\itshape #3} \hfill {\small #4} \\[-0.75em]
 }
-\newcommand{\role}[3]{%
-  \textbf{#1} --- {\itshape #2} \hfill {\small #3} \\
+
+\newcommand{\subentry}[2]{%
+  \hspace{0.4em}\textbf{\sffamily #1} \hfill {\small #2}\\[-0.55em]
 }
 
 \newcommand*{\itemdesc}[2]{\item \textbf{\sffamily #1:}~{\small #2}}
@@ -59,11 +59,10 @@
 \newcommand*{\link}[2]{\href{#1}{{\texttt{#2}}}}
 
 \begin{document}
-% \RaggedRight
 
 {\Huge \textbf{Heliton Martins Reis Filho}}\\[0.3em]
 
-{\large Engenheiro de Software | P\&D em Machine Learning, IA Aplicada e Química Computacional}\\[0.4em]
+{\large Engenheiro de \textit{Software} e IA/ML | Computação Científica \& Inovação Estratégica}\\[0.4em]
 
 {\ttfamily
 \begin{tabularx}{\textwidth}{@{}X r@{}}
@@ -73,118 +72,134 @@ UFMG | CEFET-MG & Belo Horizonte, MG, Brasil \\
 \href{https://lattes.cnpq.br/2197799814329542}{lattes.cnpq.br/2197799814329542}& \href{mailto:helitonmrf@gmail.com}{helitonmrf@gmail.com} \\
 \end{tabularx}
 }
-
-% \vspace{0.35em}
 \section*{Resumo Profissional}
-\textbf{Engenheiro de software} com mais de uma década de experiência prática em desenvolvimento, iniciada em PHP {\small(pré-Laravel e com CSS para IE6)}, mas evoluindo continuamente por uma ampla gama de linguagens e ecossistemas conforme apropriado para cada problema e para cada realidade.
-Empreendedor e apaixonado por resolver problemas, cofundei e \textbf{lidero uma startup} que hoje está incubada no Berçário de Startups do DQ/UFMG.
+Engenheiro de \textit{Software} e Empreendedor de Base Tecnológica com um perfil multidisciplinar raro, unindo o pragmatismo de mais de uma década em engenharia de sistemas ao profundo rigor matemático da Química Computacional. Apaixonado por aprendizado contínuo, atuo na interseção entre ciência profunda, arquitetura de \textit{software} e estratégia de negócios, entregando valor através de três pilares:
 
-Academicamente, atuei em inúmeros projetos e grupos de pesquisa, tanto no CEFET-MG quanto na UFMG. Minha trajetória científica se centra em melhorar os métodos atuais de \textbf{Machine Learning e IA} ou aplicá-los a \textbf{problemas reais} em diversas áreas, como em química computacional, toxicologia, planejamento de fármacos, jurimetria, análises térmicas\ldots
+\begin{itemize}[leftmargin=1.5em, itemsep=0.4em]
+    \item \textbf{Engenharia de \textit{Software} Versátil:}
+    Ampla fluência tecnológica (10+ linguagens, incluindo Rust, Python e TypeScript) e domínio de múltiplas eras da infraestrutura (de servidores Linux e VPS \textit{bare-metal} a ecossistemas \textit{Cloud-Native}, Docker, CI/CD e \textit{Serverless}).
 
+    \item \textbf{Ciência de Dados, IA e Rigor Matemático:}
+    Sólida base analítica aplicada a \textit{hard sciences}. Extensa experiência em software científico (QSAR), redução de dimensionalidade, validação estatística e aplicação de Redes Neurais para elucidação de sistemas complexos.
+
+    \item \textbf{Visão Estratégica e Inovação (\textit{Lean}):}
+    Liderança técnica com mentalidade de produto. Especialista em aplicar ciclos ágeis (construir-medir-aprender) e alinhar o desenvolvimento tecnológico a análises de viabilidade econômica, macropolítica e necessidades reais do mercado para construir \textit{startups} e soluções de alto impacto.
+\end{itemize}
+
+
+\section*{Competências Técnicas}
+\begin{itemize}
+\itemdesc{IA / Machine Learning}{LLMs, RAG, busca semântica, \textit{embeddings} (\textit{Transformers}), \textit{fine-tuning}, modelos locais, bancos vetoriais, redes neurais, regressão e classificação, validação estatística, aprendizagem (não-)supervisionada}
+\itemdesc{Linguagens}{Python, Rust, TypeScript/JavaScript, SQL, Julia, C++, Fortran, MATLAB, \LaTeX, PHP, HTML/CSS}
+\itemdesc{Backend e Web}{Next.js, NestJS, Node.js, FastAPI, Flask, APIs REST, PostgreSQL, bancos NoSQL e vetoriais (Pinecone)}
+\itemdesc{Infra e DX}{Git/GitHub, Docker, CI/CD, Linux, AWS/GCP/Azure, MLOps, \textit{serverless}}
+\end{itemize}
+
+\section*{Experiência Profissional}
+
+\entry{Coral Digital Soluções Inteligentes}{Mai. 2024 -- Atual}{Fundador, CEO \& CTO}{\link{https://coraldigital.com.br}{coraldigital.com.br}}
+\begin{itemize}\footnotesize
+  \item Fundei e lidero, estratégica e tecnicamente, a Coral Digital, atuando em duas frentes: produtos próprios de IA aplicada e consultoria especializada em ML/IA para empresas;
+  \item Aplico metodologia enxuta (ciclos construir--medir--aprender, com contato direto com clientes desde o MVP) no desenvolvimento de novos produtos;
+  \item Prestei serviços sob demanda, incluindo um classificador semântico de licitações (\textit{embeddings} + ML clássico) e \textit{chatbots} conversacionais com LLMs para clientes diversos.
+\end{itemize}
+
+\subentry{Licita.AI --- SaaS de Inteligência em Licitações Públicas}{Set. 2025 -- Atual \textbar{} \link{https://licitaai.coraldigital.com.br}{licitaai.coraldigital.com.br}}
+\begin{itemize}[leftmargin=2.2em]\footnotesize
+  \item Idealizo e lidero, como CEO \& CTO, o Licita.AI, incubado no Berçário de Startups do DQ/UFMG, com mentoria estruturada e parceiros estratégicos desde o MVP;
+  \item Arquitetei o produto em 4 microsserviços: aplicação web \textit{fullstack} em Next.js, dois \textit{workers multithreaded} em Rust e um em Python para a \textit{pipeline} de dados (\textit{serverless});
+  \item Implementei busca semântica de licitações com \textit{embeddings} e banco vetorial, e pré-análise de viabilidade de editais via LLM, com extração estruturada de dados a partir dos anexos;
+  \item Conduzi a migração de arquitetura de dados de PostgreSQL + Pinecone para PostgreSQL único, reduzindo superfície de infraestrutura e custo operacional.
+\end{itemize}
+
+\subentry{Responde.Chat --- SaaS de Automação de Atendimento via WhatsApp}{2024 -- 2025}
+\begin{itemize}[leftmargin=2.2em]\footnotesize
+  \item Projetei e desenvolvi a solução completa: API própria de WhatsApp \textit{self-hosted} (Evolution API), \textit{backend} em NestJS, \textit{frontend} em Next.js e funções/\textit{webhooks} em Python/FastAPI;
+  \item Entreguei um produto configurável pelo próprio WhatsApp, eliminando a necessidade de painel administrativo separado para o cliente final.
+\end{itemize}
+
+\vspace{0.7em}
+
+\entry{Companhia Brasileira de Lítio (CBL)}{Mar. 2025 -- Abr. 2025}{Estagiário em Pesquisa \& Desenvolvimento}{Divisa Alegre, MG}
+\begin{itemize}\footnotesize
+  \item Estágio obrigatório no setor de P\&D de uma planta industrial de beneficiamento de Lítio, na interface entre química, processos industriais e pesquisa aplicada.
+\end{itemize}
+
+\vspace{0.7em}
+
+\entry{Privacy Point}{Ago. 2024 -- Jan. 2025}{Desenvolvedor Full-Stack}{\link{https://privacypoint.com.br}{privacypoint.com.br}}
+\begin{itemize}\footnotesize
+  \item Único desenvolvedor \textit{full-stack} do produto (ao lado do CTO), entregando funcionalidades voltadas à conformidade com a LGPD em plataforma PHP/Laravel sobre VPS;
+  \item Desenvolvi e implantei \textit{chatbot} conversacional especializado em privacidade e proteção de dados (LLM + RAG + banco vetorial).
+\end{itemize}
+
+\section*{Experiência em Pesquisa Científica}
+
+\entry{LACC/UFMG --- Laboratório de Química Computacional Aplicada}{2019 -- Atual (8 anos)}{Pesquisador Voluntário e Líder de Desenvolvimento de Software}{DQ/UFMG}
+\begin{itemize}\footnotesize
+  \item Liderei o desenvolvimento do QSARModelingPy: cálculo de descritores moleculares, tratamento de dados, filtragem e seleção de variáveis (variância, correlação, autocorrelação, Kennard-Stone, OPS, algoritmo genético) e validação estatística (interna, cruzada e externa);
+  \item Reimplementei módulos críticos em Rust e Julia para comparação de performance com a versão original em Python;
+  \item Concebi e implementei um método inédito baseado em geometria computacional para cálculo de descritores moleculares, tema do meu Trabalho de Conclusão de Curso;
+  \item Publico e mantenho ferramentas de código aberto (HullQSAR, qsarmodeling, QSARModelingPy, maligner) que conectam pesquisa científica a \textit{software} reutilizável pela comunidade;
+  \item Atuo em modelagem molecular, cálculos quânticos em \textit{clusters} (ORCA, GAMESS, Psi4, OpenBabel, RDKit) e arquitetura/empacotamento de aplicações científicas em ambiente Linux.
+\end{itemize}
+
+\vspace{0.7em}
+
+\entry{PICQ/UFMG --- Laboratório de Problemas Inversos e Cinética Química}{2020 -- 2024 (4 anos)}{Bolsista de Iniciação Científica (CNPq)}{DQ/UFMG}
+\begin{itemize}\footnotesize
+  \item Apliquei redes neurais artificiais e métodos isoconversionais/isotérmicos (Arrhenius, Vyazovkin) a dados de análise térmica (DTG/DTA) para elucidação de mecanismos de decomposição;
+  \item Reimplementei as metodologias legadas do grupo (originalmente em MATLAB) em Julia, Fortran e Python, com foco em \textit{performance};
+  \item Fui responsável metodológico e de desenvolvimento de \textit{software} em projetos interdisciplinares do PPG em Inovação Tecnológica, incluindo: estudo de espectroscopia Raman + redes neurais para detecção de COVID-19 com \textbf{97\% de acurácia}; otimização via RNA do tempo de duração de processos na Justiça do Trabalho; e pré-análise de processos judiciais sobre proteção de dados com LLMs e ML clássico.
+\end{itemize}
 
 \section*{Formação Acadêmica}
-\entry{Universidade Federal de Minas Gerais (UFMG)}{2019 -- (formatura em jul. 2026)}{Bacharelado em Química com ênfase em Química Computacional}{Belo Horizonte, MG}
+\entry{Universidade Federal de Minas Gerais (UFMG)}{2019 -- jul. 2026 (previsto)}{Bacharelado em Química com ênfase em Química Computacional}{Belo Horizonte, MG}
+\begin{itemize}\footnotesize
+  \item Disciplinas complementares:
+  \begin{itemize}
+      \item Programação e Desenvolvimento de Software; Introdução à Lógica Computacional; Álgebra Linear Computacional; Matemática Discreta;
+      \item Introdução à Quimiometria; Introdução à Ciência de Dados; Métodos Computacionais e Estatísticos em Química; Métodos da Física Teórica;
+      \item Criação de Empresas de Base Tecnológica; Vivência em \textit{Startups} de Base Tecnológica; Empreendimentos em Informática.
+    \end{itemize}
+\end{itemize}
 
 \vspace{0.5em}
 
 \entry{Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)}{2016 -- 2018}{Técnico em Química}{Timóteo, MG}
-
-\section*{Experiência}
-
-\entry{Licita.AI}{Set. 2025 -- Atual}{Cofundador, CEO \& CTO}{\link{https://licitaai.coraldigital.com.br}{licitaai.coraldigital.com.br}}
 \begin{itemize}\footnotesize
-  \item Fundador e líder técnico da Startup, atualmente incubada no Berçário de Startups do DQ/UFMG focada na aplicação de Machine Learning e PLN para organizar e simplificar as licitações públicas;
-  \item Desenvolvimento ágil de SaaS baseado em Metodologia Enxuta, com contato com os potenciais clientes desde o princípio (ciclos ``construir -- medir -- aprender'').
+  \item Estágio no Núcleo de Estudos em Física e Química Computacional (NEFICQ), na linha de planejamento de fármacos e \textit{docking} molecular.
 \end{itemize}
 
-\vspace{1.5em}
-
-\entry{Coral Digital Soluções Inteligentes}{Mai. 2024 -- Atual}{Fundador}{\link{https://coraldigital.com.br}{coraldigital.com.br}}
-\begin{itemize}\footnotesize
-  \item Pesquisa, desenvolvimento e implantação de soluções especializadas de Machine Learning e IA para empresas;
-  \item Desenvolvimento de modelos de Machine Learning e de agentes conversacionais inteligentes, incluindo automação de atendimento via WhatsApp com API própria.
-  \item Projeto e Desenvolvimento do \textbf{Responde.Chat}, plataforma SaaS de autoatendimento via WhatsApp baseada em LLMs, automação e API própria de WhatsApp.
-\end{itemize}
-
-\vspace{1.5em}
-
-\entry{Privacy Point}{Ago. 2024 -- Jan. 2025}{Desenvolvedor Full-Stack}{\link{https://privacypoint.com.br}{privacypoint.com.br}}
-\begin{itemize}\footnotesize
-  \item Desenvolvimento full-stack de funcionalidades para um produto voltado à privacidade e conformidade com a LGPD;
-  \item Manutenção em ambiente VPS tradicional e de plataforma baseada em PHP e Laravel;
-  \item Desenvolvimento e implantação de chatbot conversacional especializado em privacidade e proteção de dados (LLM + RAG + VDB).
-\end{itemize}
-
-\vspace{1.5em}
-
-\entry{CBL -- Companhia Brasileira de Lítio}{Mar. 2025 -- Abr. 2025}{Estagiário em Pesquisa \& Desenvolvimento}{Divisa Alegre, MG}
-\begin{itemize}\footnotesize
-  \item Vivência prática no setor de Pesquisa \& Desenvolvimento de uma planta industrial de beneficiamento de Lítio.
-  \item Atuação na interface entre química, processos industriais e pesquisa aplicada.
-\end{itemize}
-
-\vspace{1.8em}
-
-\entry{LACC/UFMG -- Laboratório de Química Computacional Aplicada}{2019 -- Atual}{Pesquisador Voluntário em Métodos Computacionais para Físico-Química Teórica}{DQ/UFMG}
-\begin{itemize}\footnotesize
-  \item O grupo trabalha fortemente com Relação Quantitativa Estrutura-Atividade (QSAR), cujo objetivo é prever a atividade biológica de compostos a partir de sua estrutura molecular;
-  \item Modelagem molecular, execução de cálculos quânticos em clusteres, cálculo de descritores moleculares, tratamento dos dados, redução de dimensionalidade, seleção de variáveis, treinamento do modelo de regressão e, finalmente, validação do modelo preditivo;
-  \item Pesquisa de novos métodos computacionais/matemáticos e implementação de softwares científicos para QSAR, planejamento de fármacos, toxicologia e problemas correlatos;
-  \item Desenvolvimento de ferramentas de código aberto como \link{https://github.com/hellmrf/HullQSAR}{HullQSAR}, \link{https://github.com/hellmrf/QSARModelingPy}{QSARModelingPy}, e \link{https://github.com/hellmrf/maligner}{maligner}, conectando pesquisa e software reutilizável.
-\end{itemize}
-
-\vspace{1.5em}
-
-\entry{PICQ/UFMG -- Laboratório de Problemas Inversos e Cinética Química}{2020 -- 2024}{Bolsista de Iniciação Científica (CNPq)}{DQ/UFMG}
-\begin{itemize}\footnotesize
-  \item Aplicação de redes neurais artificiais em análises térmicas e estudos de degradação e cinética química;
-  \item Implementação computacional de métodos matemáticos teóricos para problemas inversos em MATLAB, Julia e Python, e benchmarking para análise de performance;
-  \item Participação em diversos projetos do Programa de Pós-Graduação em Inovação Tecnológica (PPGIT) da UFMG, aplicando Redes Neurais Artificiais a áreas como exames clínicos, jurimetria, metodologias ágeis, LGPD, etc.
-\end{itemize}
-
-% \section*{Projetos Selecionados}
-% \begin{itemize}
-%   \item
-%   \item \textbf{Classificador de Licitações} --- sistema de classificação textual semântica com machine learning e embeddings.
-%   \item \textbf{QSARModelingPy} --- biblioteca em Python para construção e validação de modelos QSAR.
-%   \item \textbf{qsarmodelingrs} e \textbf{QSARModeling.jl} --- reimplementações parciais em Rust e Julia, respectivamente, do QSARModeling, com foco em desempenho.
-%   \item \textbf{Chatbot LGPD} --- solução automatizada voltada à proteção de dados e conformidade regulatória.
-% \end{itemize}
-
-\section*{Competências Técnicas}
-
-Segue uma lista não exaustiva de linguagens, frameworks e técnicas com as quais tenho/tive experiência.
-
+\section*{Projetos de Código Aberto}
 \begin{itemize}
-\itemdesc{Linguagens}{Python, TypeScript, JavaScript, Rust, Julia, C++, LaTeX, MATLAB, Fortran, PHP, SQL, HTML, CSS, \ldots}
-\itemdesc{Web e Backend}{Next.js, React, NestJS, Node.js, Express, Flask, APIs REST, Bancos de Dados (SQL, No-SQL e VecDB), Wordpress, Apache/Nginx, \ldots}
-\itemdesc{``IA''}{LLMs, RAG, busca semântica, algoritmos de recomendação, embeddings de Transformers, fine-tuning, modelos locais, bancos vetoriais, \ldots}
-\itemdesc{Machine Learning}{coleta, pré-tratamento e análise exploratória de dados; métodos de regressão e classificação; aprendizagem (não-)supervisionada ou por reforço; arquiteturas de redes neurais; métodos de amostragem; validação estatística; \ldots}
-\itemdesc{Infra e DX}{Git/GitHub, CI/CD, Docker, Linux, DevOps, MLOps, DNS, infraestrutura em núvem (VPS, AWS, GCP, Azure, ...), serverless, \ldots}
+  \item \link{https://github.com/lacc-ufmg/qsarmodeling}{QSAR Modeling} --- aplicação em Rust para modelagem e validação para QSAR/QSPR.
+  \item \link{https://github.com/hellmrf/HullQSAR}{HullQSAR} --- biblioteca para cálculo geométrico de descritores moleculares.
+  \item \link{https://github.com/lacc-ufmg/QSARModelingPy}{QSARModelingPy} --- biblioteca em Python para construção e validação de modelos QSAR/QSPR.
+  \item \link{https://github.com/hellmrf/maligner}{maligner} --- ferramenta de alinhamento molecular.
 \end{itemize}
 
 \section*{Divulgação Científica e Ensino}
 \begin{itemize}
-  \item Fundador do canal \link{https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ}{Programação Popular}, com mais de 1 milhão de visualizações desde 2013, dedicado ao ensino acessível de programação;
-  \item Produção do Curso de Lógica de Programação e Algoritmos em Portugol Studio, frequentemente reconhecido e utilizado como material de apoio em diversas instituições, como Institutos Federais e Escolas Técnicas.
+  \item Produtor (Coordenador de Transmissão) do \href{https://repositorio.ufmg.br/bitstream/1843/50717/1/I%20Congresso%20Nacional%20de%20Inova%C3%A7%C3%A3o%20e%20Populariza%C3%A7%C3%A3o%20da%20Ci%C3%AAncia%20a%C3%A7%C3%B5es%20durante%20a%20covid-19.pdf}{I Congresso Nacional de Inovação e Popularização da Ciência} (2020);
+  \item Fundador do canal \link{https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ}{Programação Popular}, com mais de 1 milhão de visualizações desde 2013, focado no ensino acessível de programação;
+  \item Produtor do Curso de Lógica de Programação e Algoritmos em Portugol Studio, adotado como material de apoio em Institutos Federais e Escolas Técnicas brasileiras.
 \end{itemize}
-
 
 \section*{Reconhecimentos}
 \begin{itemize}
-  \item Menção Honrosa na Olimpíada Brasileira do Ensino Superior de Química.
-  \item Medalha de Ouro na XXVII Mostra Específica de Trabalhos e Aplicações do CEFET-MG.
+  \item \textbf{Menção Honrosa} na \href{https://obesq.obquimica.org}{Olimpíada Brasileira do Ensino Superior de Química}.
+  \item \textbf{Medalha de Ouro} na \href{https://www.meta2017.cefetmg.br}{XXVII Mostra Específica de Trabalhos e Aplicações} do CEFET-MG.
 \end{itemize}
 
 \section*{Liderança e Atuação Institucional}
 \begin{itemize}
-  \item Representante discente em órgãos colegiados da UFMG, como: Conselho Universitário; Conselho de Ensino, Pesquisa e Extensão (Câmara de Pesquisa e Câmara de Graduação); Congregação do ICEx; Conselho Fiscal da FUMP; Câmara Departamental de Química e Colegiado dos cursos de Graduação em Química e Química Tecnológica;
-  \item Liderança e atuação executiva em entidades estudantis como DCE-UFMG (Diretor Administrativo-Financeiro), DAICEx (Secretário Geral) e CEQ (Presidente).
+  \item Representante discente em órgãos colegiados da UFMG (Conselho Universitário, CEPE, Congregação do ICEx, Conselho Fiscal da FUMP, Câmara Departamental de Química);
+  \item Atuação executiva em entidades estudantis: DCE-UFMG (Diretor Administrativo-Financeiro), DAICEx (Secretário Geral) e CEQ (Presidente).
 \end{itemize}
 
 \section*{Idiomas}
-Português (nativo), Inglês (fluente), Italiano (básico), Mandarim (em breve).
-
+Português (nativo) \textbar{} Inglês (fluente) \textbar{} Italiano (básico)
 
 \begin{flushright}\scriptsize%
 Atualizado em \today.%
