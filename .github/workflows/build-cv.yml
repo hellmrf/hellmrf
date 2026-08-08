@@ -1,4 +1,4 @@
-name: Build Latest
+name: Build CV PDF
 
 on:
   push:
@@ -6,19 +6,20 @@ on:
       - main
     paths:
       - PDF/**
+  workflow_dispatch:
 
 jobs:
   build:
     name: Compilar LaTeX
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
-      - uses: xu-cheng/texlive-action@v2
+      - uses: xu-cheng/texlive-action@v3
         with:
-          scheme: full
-          texlive_version: 2025
+          scheme: small
+          texlive_version: latest
           run: |
             echo "-----------\n"
             echo "> which arara\n"
@@ -40,8 +41,8 @@ jobs:
           TAG_NAME="${DATE_STR}-${GITHUB_SHA::7}"
 
           gh release create "${TAG_NAME}" \
-            --title "${DATE_STR}" \
-            --notes "Build automático do commit ${GITHUB_SHA}" \
+            --title "@hellmrf's CV.pdf | ${DATE_STR}" \
+            --notes "@hellmrf's _Curriculum Vitae_ (PDF version) was updated!\n\n- Português: [`${TAG_NAME}`](https://github.com/hellmrf/hellmrf/releases/download/${TAG_NAME}/Heliton-CV-pt.pdf) | [`latest`](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-pt.pdf)\n- English: [`${TAG_NAME}`](https://github.com/hellmrf/hellmrf/releases/download/${TAG_NAME}/Heliton-CV-en.pdf) | [`latest`](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-en.pdf)\n\n_Build automático do commit ${GITHUB_SHA}._" \
             --target "${GITHUB_SHA}" \
             --latest \
             Heliton-CV-pt.pdf \
