@@ -30,21 +30,26 @@ jobs:
             echo -e "> tlmgr install \n"
             tlmgr install newcomputermodern fontsetup titlesec
 
-            echo -e"\n\n\n> pwd"
+            echo "🦀> pwd && cd PDF"
             pwd
 
-            echo -e "\n\n> latexmk pt.tex\n"
-            cd PDF && latexmk -xelatex main.tex
+            cd PDF
 
-            echo -e"\n\n\n> pwd"
+            echo "🦀> pwd"
             pwd
 
-            echo -e "\n\n> latexmk en.tex"
-            cd PDF && latexmk -xelatex en.tex
+            echo "🦀> latexmk pt.tex"
+            latexmk -xelatex main.tex
 
-            echo -e "\n\n> cp PDF/main.pdf Heliton-CV-pt.pdf && cp PDF/en.pdf Heliton-CV-en.pdf"
-            cp PDF/main.pdf Heliton-CV-pt.pdf
-            cp PDF/en.pdf Heliton-CV-en.pdf
+            echo "🦀> latexmk en.tex"
+            latexmk -xelatex en.tex
+
+            echo "🦀> cp PDF/main.pdf Heliton-CV-pt.pdf && cp PDF/en.pdf Heliton-CV-en.pdf"
+            cp main.pdf ../Heliton-CV-pt.pdf
+            cp en.pdf ../Heliton-CV-en.pdf
+
+            echo "🦀> pwd"
+            pwd
 
       - name: Publicar release
         env:
