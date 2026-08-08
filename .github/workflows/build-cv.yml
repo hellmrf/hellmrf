@@ -60,9 +60,11 @@ jobs:
           DATE_STR="$(date -u +'%Y-%m-%d')"
           TAG_NAME="${DATE_STR}-${GITHUB_SHA::7}"
 
+          echo -e "@hellmrf's _Curriculum Vitae_ (PDF version) was updated! \n\n- 🇧🇷  Português: [\`${TAG_NAME}\`](https://github.com/hellmrf/hellmrf/releases/download/${TAG_NAME}/Heliton-CV-pt.pdf) | [\`latest\`](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-pt.pdf) \n- 🇬🇧  English: [\`${TAG_NAME}\`](https://github.com/hellmrf/hellmrf/releases/download/${TAG_NAME}/Heliton-CV-en.pdf) | [\`latest\`](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-en.pdf) \n\n_Build automático do commit ${GITHUB_SHA}._" > RELEASE.md
+
           gh release create "${TAG_NAME}" \
-            --title "@hellmrf's CV.pdf | ${DATE_STR}" \
-            --notes "@hellmrf's _Curriculum Vitae_ (PDF version) was updated!\n\n- Português: [`${TAG_NAME}`](https://github.com/hellmrf/hellmrf/releases/download/${TAG_NAME}/Heliton-CV-pt.pdf) | [`latest`](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-pt.pdf)\n- English: [`${TAG_NAME}`](https://github.com/hellmrf/hellmrf/releases/download/${TAG_NAME}/Heliton-CV-en.pdf) | [`latest`](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-en.pdf)\n\n_Build automático do commit ${GITHUB_SHA}._" \
+            --title "@hellmrf's CV.pdf (${DATE_STR})" \
+            --notes-file RELEASE.md \
             --target "${GITHUB_SHA}" \
             --draft \
             Heliton-CV-pt.pdf \
