@@ -23,6 +23,9 @@ jobs:
           run: |
             echo -e "-----------\n"
 
+            echo -e "> tlmgr update --self\n"
+            tlmgr update --self
+
             echo -e "> tlmgr install arara\n"
             tlmgr install arara
 
