@@ -26,21 +26,24 @@ jobs:
             echo -e "> tlmgr update --self\n"
             tlmgr update --self
 
-            echo -e "> tlmgr install arara\n"
-            tlmgr install arara newcomputermodern
+            echo -e "> tlmgr install \n"
+            tlmgr install newcomputermodern fontsetup titlesec
 
-            echo -e "> which arara\n"
-            which arara
+            echo -e"\n\n\n> pwd"
+            pwd
 
-            echo -e "\n\n> arara -d PDF -v main.tex\n"
-            arara -d PDF -v main.tex
+            echo -e "\n\n> latexmk pt.tex\n"
+            cd /PDF && latexmk -xelatex main.tex
 
-            echo -e "\n\n> arara -d PDF -v en.tex\n"
-            arara -d PDF -v en.tex
+            echo -e"\n\n\n> pwd"
+            pwd
+
+            echo -e "\n\n> latexmk en.tex"
+            cd /PDF && latexmk -xelatex en.tex
 
             echo -e "\n\n> cp PDF/main.pdf Heliton-CV-pt.pdf && cp PDF/en.pdf Heliton-CV-en.pdf"
-            cp PDF/main.pdf Heliton-CV-pt.pdf
-            cp PDF/en.pdf Heliton-CV-en.pdf
+            cp /PDF/main.pdf Heliton-CV-pt.pdf
+            cp /PDF/en.pdf Heliton-CV-en.pdf
 
       - name: Publicar release
         env:
