@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - PDF/**
-  workflow_dispatch:
+      - .github/workflows/build-cv.yml
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
             tlmgr update --self
 
             echo -e "> tlmgr install arara\n"
-            tlmgr install arara
+            tlmgr install arara newcomputermodern
 
             echo -e "> which arara\n"
             which arara
