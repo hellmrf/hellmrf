@@ -21,13 +21,21 @@ jobs:
           scheme: small
           texlive_version: latest
           run: |
-            echo "-----------\n"
-            echo "> which arara\n"
+            echo -e "-----------\n"
+
+            echo -e "> tlmgr install arara\n"
+            tlmgr install arara
+
+            echo -e "> which arara\n"
             which arara
-            echo "\n\n> arara -d PDF -v main.tex\n"
+
+            echo -e "\n\n> arara -d PDF -v main.tex\n"
             arara -d PDF -v main.tex
-            echo "\n\n> arara -d PDF -v en.tex\n"
+
+            echo -e "\n\n> arara -d PDF -v en.tex\n"
             arara -d PDF -v en.tex
+
+            echo -e "\n\n> cp PDF/main.pdf Heliton-CV-pt.pdf && cp PDF/en.pdf Heliton-CV-en.pdf"
             cp PDF/main.pdf Heliton-CV-pt.pdf
             cp PDF/en.pdf Heliton-CV-en.pdf
 
