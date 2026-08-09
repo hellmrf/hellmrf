@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - PDF/**
-      - .github/workflows/build-cv.yml
+
 
 jobs:
   build:
@@ -57,6 +57,6 @@ jobs:
             --title "${DATE_STR} | @hellmrf's CV.pdf" \
             --notes-file RELEASE.md \
             --target "${GITHUB_SHA}" \
-            --draft \
+            --latest \
             Heliton-CV-pt.pdf \
             Heliton-CV-en.pdf
