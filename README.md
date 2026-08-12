@@ -1,43 +1,66 @@
-# Heliton Martins ([@hellmrf](https://hellmrf.dev.br/))
+<h1 align="center">Olá, eu sou Heliton 👋🇧🇷</h1>
+<p align="center"></p>
+<h3 align="center">Engenheiro de Software & IA/ML • Fundador @ Coral Digital</h3>
 
+<p align="center">
+  <a href="https://coraldigital.com.br">🌐 coraldigital.com.br</a> ·
+  <a href="https://hellmrf.dev.br">🔗 hellmrf.dev.br</a> ·
+  <a href="https://www.linkedin.com/in/helitonmrf/">💼 LinkedIn</a> ·
+  <a href="https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ">🎥 Programação Popular</a> ·
+  <a href="https://lattes.cnpq.br/2197799814329542">📄 Lattes</a>
+</p>
 
-Engenheiro de software com mais de uma década de experiência prática em desenvolvimento (desde o PHP pré-Laravel e do CSS para IE6), tendo evoluido continuamente por uma ampla gama de linguagens e ecossistemas, conforme apropriado para cada problema e para cada realidade.
+### 🧭 Sobre mim
 
-Empreendedor e apaixonado por resolver problemas, cofundei e lidero uma startup que hoje está incubada no Berçário de Startups do DQ/UFMG.
+Transito entre a engenharia de software e a química computacional há quase uma década, e trato as duas coisas como a mesma habilidade aplicada em domínios diferentes: modelar sistemas complexos, validar hipóteses com rigor e construir ferramentas que resolvem problemas reais.
 
-Academicamente, atuei em inúmeros projetos e grupos de pesquisa, tanto no CEFET-MG quanto na UFMG. Minha trajetória científica se centra em melhorar os métodos atuais de Machine Learning e IA ou aplicá-los a problemas reais em diversas áreas, como em química computacional, toxicologia, planejamento de fármacos, jurimetria, análises térmicas, etc.
+Hoje lidero a **Coral Digital**, uma _startup_ incubada no Berçário de Startups da UFMG e focada na solução de problemas reais com o uso de tecnologia.
 
-<!-- <div style="text-align:center;padding: 1rem;">
-<a href="https://hellmrf.dev.br/">Site</a> &bull;
-<a href="https://github.com/hellmrf/hellmrf/releases/download/latest/CV.pdf">Currículo (PDF)</a> &bull;
-<a href="https://linkedin.com/in/hellmrf">LinkedIn</a> &bull;
-<a href="https://hellmrf.dev.br/contact">Contato</a>
-</div> -->
+- 🔭 Construindo o [Licita.AI](https://licitaai.coraldigital.com.br) -- inteligência de dados para licitações públicas.
+- 🧪 8 anos de pesquisa em Química Computacional [@lacc-ufmg](https://github.com/lacc-ufmg).
+- 📚 Ensino programação em português desde 2013 no canal [Programação Popular](https://yt.hellmrf.dev.br).
+- 🎓 Bacharel em Química Computacional ([UFMG](https://ufmg.br))
+
+### 🛠️ _Habitat_ (_stack_)
+
+Acredito que a melhor tecnologia depende totalmente do projeto e das circunstâncias de desenvolvimento. Por isso, já trafeguei por mais de 10 linguagens e inúmeros _frameworks_ ou padrões. Abaixo listo algumas das tecnologias (linguagens, frameworks, plataformas, etc) mais importantes que uso hoje em dia.
+
+<p align="center">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img alt="Tauri" src="https://img.shields.io/badge/Tauri-24C8D8?style=flat&logo=tauri&logoColor=white" />
+  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white" />
+  <img alt="Julia" src="https://img.shields.io/badge/Julia-9558B2?style=flat&logo=julia&logoColor=white" />
+  <img alt="Fortran" src="https://img.shields.io/badge/Fortran-734F96?style=flat&logo=fortran&logoColor=white" />
+  <br/>
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" />
+  <img alt="Github Actions" src="https://img.shields.io/badge/Github_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
+  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" />
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+</p>
+
+*Machine Learning*, Redes Neurais, LLMs/SLMs, RAG, busca semântica, *embeddings*, *fine-tuning*, bancos vetoriais, validação estatística...
+
+### 🔬 Pesquisa & Open Source
+
+| Projeto | Descrição |
+|---|---|
+| [QSAR Modeling](https://github.com/lacc-ufmg/qsarmodeling) | Aplicação em Rust para modelagem e validação QSAR/QSPR |
+| [HullQSAR](https://github.com/hellmrf/HullQSAR) | Método próprio (TCC) para cálculo geométrico de descritores moleculares |
+| [QSARModelingPy](https://github.com/lacc-ufmg/QSARModelingPy) | Biblioteca Python para construção e validação de modelos QSAR/QSPR |
+| [maligner](https://github.com/hellmrf/maligner) | Ferramenta de alinhamento molecular |
+
+### 📫 Contato
+
+<p align="center">
+  <a href="mailto:helitonmrf@gmail.com">✉️ helitonmrf@gmail.com</a> ·
+  <a href="https://wpp.hellmrf.dev.br">📱 WhatsApp</a>
+</p>
+
 
 - **_Curriculum vitae_ (PDF)**: [Português](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-pt.pdf) | [English](https://github.com/hellmrf/hellmrf/releases/latest/download/Heliton-CV-en.pdf)
-- **LinkedIn:** [`/in/helitonmrf`](https://linkedin.com/in/helitonmrf)
-- **Website:** [`hellmrf.dev.br`](https://hellmrf.dev.br/)
 
-
-
-## Sobre mim
-
-[![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCsXyoSkpyZB741fkBKeEovQ)](https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ) [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCsXyoSkpyZB741fkBKeEovQ)](https://www.youtube.com/channel/UCsXyoSkpyZB741fkBKeEovQ)
-
-- Professor de Programação em [youtube.com/@ProgramacaoPopular](https://youtube.com/@programacaopopular)
-- Bacharelando em Química Computacional ([UFMG](https://ufmg.br/), 2019-Atual);
-- Técnico em Química ([CEFET-MG](https://www.cefetmg.br/), 2016-2018);
-- Fundador de [Coral Digital](https://coraldigital.com.br);
-- Fundador de [Responde.Chat](https://responde.chat)
-- Programador auto-didata desde 2012.
-
-
-[Leia mais...](https://hellmrf.dev.br/bio)
-
-## _Habitat_
-<a href="https://skillicons.dev/" target="_blank" rel="noopener">
-<div style="text-align: center;">
-<p><img src="https://skillicons.dev/icons?i=py,html,css,js,ts,latex,md" /></p>
-<p><img src="https://skillicons.dev/icons?perline=10&i=docker,git,github,githubactions,nodejs,nextjs,react,nestjs,pug,sass,flask,mysql,postgres,sqlite,sklearn,tensorflow,yarn,npm,wordpress,bootstrap,regex,julia,fortran,php,cpp,rust,gtk,qt,anaconda,azure,postman,bash,vim,neovim,linux,ubuntu,windows,vscode" /></p>
-</div>
-</a>
